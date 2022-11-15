@@ -1,0 +1,102 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: rgb(255, 255, 255);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.container{
+  max-width: 900px;
+  margin: 0 auto;
+  font-family: 'Big Shoulders Display', cursive;
+  font-size: 15px;
+}
+
+.wrapper{
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr;
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: left;
+}
+img{
+  padding-top: 20px;
+}
+
+h1{
+  padding-top: 40px;
+  font-size: 2.7rem;
+  color: hsl(0, 0%, 95%);
+}
+
+p{
+  color: hsla(0, 0%, 100%, 0.50);
+  line-height: 1.7;
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 400;
+  padding-top: 20px;
+  padding-bottom: 80px;
+}
+
+.car1{
+  background-color: hsl(31, 77%, 52%);
+  padding: 3.8rem;
+}
+.car1 a{
+  color: hsl(31, 77%, 52%);
+}
+
+.car2{
+  background-color: hsl(184, 100%, 22%);
+  padding: 3.8rem;
+}
+.car2 a{
+  color: hsl(184, 100%, 22%);
+}
+
+.car3{
+  background-color: hsl(179, 100%, 13%);
+  padding: 3.8rem; 
+}
+.car3 a{
+  color: hsl(179, 100%, 13%);
+
+}
+.wrapper a {
+  text-decoration: none;
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 18px;
+  background-color: hsl(0, 0%, 95%);
+  padding: 12px 24px;
+  border-radius: 50px; 
+  cursor: pointer;
+}
+
+.button1{
+  color: hsl(31, 77%, 52%);
+}
+.button2{
+  color: hsl(184, 100%, 22%)
+}
+.button3{
+  color: hsl(179, 100%, 13%)
+}
+
+.attribution { 
+  padding-top: 20px;
+  font-size: 11px; 
+  text-align: center; 
+  color: hsl(0, 0%, 0%);
+}
+.attribution a {
+   color: hsl(228, 45%, 44%); }
+
+@media only screen and (max-width:768px){
+  .wrapper{
+    grid-template-columns: 1fr;
+    margin: 1rem 2rem;
+  }
+}
